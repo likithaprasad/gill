@@ -32,7 +32,7 @@ const Body = () => {
                 <button onClick={count}>Like</button>
             </div>
             <div style={{ paddingTop: '50px', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
-                <label htmlFor="Name">Name : </label>
+                <label htmlFor="Name">Names : </label>
                 <input type="text" value={text} onChange={(e) => setText(e.target.value)} />
                 <p>onutputs : {text}</p>
                 <button onClick={reset}>Reset</button>
